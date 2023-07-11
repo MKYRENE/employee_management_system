@@ -1,9 +1,16 @@
 const inquirer = require('inquirer');
-const connection = require('./db/connection'); // Import the connection object
+const connection = require('./db/connection');
 
 // Destructure the required functions from the connection object
-const { viewAllDepartments, viewAllRoles, viewAllEmployees, addDepartment, addRoles, addEmployee, updateEmployeeRole } = require('./db/connection');
-
+const {
+  viewAllDepartments,
+  viewAllRoles,
+  viewAllEmployees,
+  addDepartment,
+  addRole,
+  addEmployee,
+  updateEmployeeRole,
+} = connection;
 
 //This code sets up the initial prompt using Inquirer and handles the user's selected actions by calling the respective functions from the connection.js file.
 
@@ -22,7 +29,7 @@ function promptUser() {
         'Add a role',
         'Add an employee',
         'Update an employee role',
-        'Exit'
+        'Exit',
       ],
     })
     .then((answer) => {
