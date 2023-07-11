@@ -252,4 +252,6 @@ module.exports = {
 
 
 //**********COMMENTS/NOTES FOR MYSELF TO REFERENCE ********
-//Update the host, port, user, password, and database values according to your MySQL configuration. This code establishes the connection to the database and exports the connection object for use in other files.
+//Update the host, port, user, password, and database values according to my MySQL configuration. 
+//This code establishes the connection to the database and exports the connection object for use 
+//in other files.

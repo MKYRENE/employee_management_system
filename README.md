@@ -8,7 +8,7 @@ This command-line application allows business owners to manage their company's d
 
 
 ## Walkthrough Video
-Please refer to the [Walkthrough Video](https://drive.google.com/file/d/19_AM5mi1tO6Tx4MUELrDBrzdEuH3hc2X/view) for a demonstration of the application's functionality.
+Please refer to the [Walkthrough Video](https://drive.google.com/file/d/1wREMGpuUuxwVtyTPHnKLAPkObWgKuDbM/view) for a demonstration of the application's functionality.
 
 ## Installation
 To use the Employee Management System, follow these steps:
