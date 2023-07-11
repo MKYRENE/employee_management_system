@@ -11,7 +11,8 @@ Please refer to the [Walkthrough Video](link-to-your-walkthrough-video) for a de
 To use the Employee Management System, follow these steps:
 1. Clone the repository to your local machine.
 2. Open a terminal and navigate to the project folder.
-3. Run the command `npm install` to install the necessary dependencies.
+3. Run 'npm init -y' to install the necessary dependencies
+4. Run the command `npm install` to install the necessary dependencies.
 
 ## Usage
 To run the application, follow these steps:
