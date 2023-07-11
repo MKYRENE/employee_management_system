@@ -4,6 +4,7 @@ DROP DATABASE IF EXISTS employee_db;
 -- Create our employee_db database
 CREATE DATABASE employee_db;
 
+
 USE employee_db;
 
 -- Create department table
