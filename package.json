@@ -1,0 +1,16 @@
+{
+  "name": "employee_management_system",
+  "version": "1.0.0",
+  "description": "Employee Tracker is a command-line application built with Node.js, Inquirer, and MySQL that allows business owners to view and manage their company's departments, roles, and employees.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "mysql2": "^3.5.1"
+  }
+}
