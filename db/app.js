@@ -1,5 +1,5 @@
 const inquirer = require('inquirer');
-const { viewAllDepartments, viewAllRoles, viewAllEmployees, addDepartment, addRoles, addEmployee, updateEmployeeRole } = require('./connection'); // creating the connection 
+const {viewAllDepartments, viewAllRoles, viewAllEmployees, addDepartment, addRoles, addEmployee, updateEmployeeRole } = require('./connection.js'); // creating the connection 
 
 //This code sets up the initial prompt using Inquirer and handles the user's selected actions by calling the respective functions from the connection.js file.
 
