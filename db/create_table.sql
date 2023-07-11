@@ -7,9 +7,9 @@ CREATE DATABASE employee_db;
 
 USE employee_db;
 
--- Create department table
+-- Create department table with auto-incrementing primary key
 CREATE TABLE department (
-  id INT PRIMARY KEY,
+  id INT PRIMARY KEY AUTO_INCREMENT,
   name VARCHAR(30)
 );
 
